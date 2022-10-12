@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="icon" href="Images/Netflix_icon.png">
-    <link rel="stylesheet" href="net.css">
+    <link rel="icon" href="https://i.ibb.co/z8cMLfX/Netflix-icon.png" alt="Netflix-icon" border="0">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body id="body">
 
+
     <section class="container">
 
         <div class="head">
 
-            <img src="Images/logo.png" alt="">
+            <img src="https://i.ibb.co/bRCwF2M/logo.png" alt="logo" border="0">
 
             <div>
                 <select class="lang">
@@ -33,7 +34,7 @@
 
     <section class="banner">
 
-        <img src="Images/back.jpeg" alt="" class="background">
+        <img src="https://i.ibb.co/TkBLLdP/back.jpg" alt="back" border="0" class="background">
 
         <div class="box">
 
@@ -53,6 +54,32 @@
         </div>
 
     </section>
+    <div id="coupon">
+
+
+        <div id="couponHeading">
+            <span id="heading">HAPPY NEW PRICES</span>
+            <button onClick="closeCoupon()" id="coupan_close_btn">&times;</button>
+        </div>
+        <div>
+            <br>
+            <p id="text"><b style="color:red; font-size:40px;">Netflix</b> on any device<br><br><br>
+                <del>Rs.199</del> Rs.149 <br><br><br> This is the real <i>Money Heist</i> <br><br><br> Let's be F.R.I.E.N.D.S
+            </p>
+
+
+
+
+        </div>
+        <div id="couponFooter">
+            <p style="font-size:10px;">*T&C Apply <br> To know more log on to www.netflix.com</p>
+
+            <div id="FooterImg">
+                <img src="https://i.ibb.co/RP3rYhP/logo2.png" alt="logo2" border="0">
+            </div>
+        </div>
+
+    </div>
 
     <section class="part1">
 
@@ -62,14 +89,14 @@
         </div>
 
         <div class="img">
-            <img src="Images/part1.png" alt="">
+            <img src="https://i.ibb.co/gRgPTqy/part1.png" alt="part1" border="0">
 
         </div>
 
     </section>
     <section class="part2">
         <div class="img">
-            <img src="Images/part2.jpg" alt="">
+            <img src="https://i.ibb.co/3C759Ht/part2.jpg" alt="part2" border="0">
 
         </div>
 
@@ -88,7 +115,7 @@
         </div>
 
         <div class="img">
-            <img src="Images/part3.png" alt="">
+            <img src="https://i.ibb.co/PNjVpkB/part3.png" alt="part3" border="0">
 
         </div>
 
@@ -96,7 +123,7 @@
 
     <section class="part4">
         <div class="img">
-            <img src="Images/part4.png" alt="">
+            <img src="https://i.ibb.co/jZx1ssP/part4.png" alt="part4" border="0">
 
         </div>
 
@@ -115,7 +142,7 @@
         </h1>
         <div class="accordion">
             <button class="ques_btn">What is Netflix?</button>
-            <img src="Images/icon.png" alt="">
+            <img src="https://i.ibb.co/HzzkpyT/icon.png" alt="icon" border="0">
         </div>
         <div class="panel">
             <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices.
@@ -234,28 +261,16 @@
         <p>Netflix India</p>
     </section>
 
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
 
-                /* Toggle between hiding and showing the active panel */
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    </script>
+
+
+
+
+    <script src="script.js"></script>
 
 
 </body>
+
 
 </html>
