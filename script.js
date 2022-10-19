@@ -23,10 +23,18 @@ window.onload = loadCoupon()
 
 function loadCoupon() {
     document.getElementById('coupon').style.visibility = 'visible';
-    document.getElementById('body').style.opacity = '0.7'
+    document.getElementById('body').style.opacity = '0.5'
 }
 
 function closeCoupon() {
     document.getElementById('coupon').style.visibility = 'hidden';
     document.getElementById('body').style.opacity = '1'
+}
+
+function changeMode() {
+    let modeChange = document.body;
+    modeChange.classList.toggle('mylight');
+
+
+
 }
