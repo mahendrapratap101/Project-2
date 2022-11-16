@@ -28,6 +28,13 @@
                         z-index: 10000;
                     }
                     
+                    #right_head {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
                     .lang {
                         margin-right: 25px;
                     }

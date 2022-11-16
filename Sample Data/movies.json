@@ -1,0 +1,42 @@
+[
+    {
+        "movies_id":"m01",
+        "movies_name":"Interceptor",
+        "Release date":"26 May 2022",
+        "Director":"Matthew Reilly",
+        "Rating":"4.6/10",
+        "movie_type":"Action, Adventure, Drama"
+    },
+    {
+        "movies_id":"m02",
+        "movies_name":"The Privilege",
+        "Release date":"9 February 2022",
+        "Director":"Felix Fuchssteiner",
+        "Rating":"4.7/10",
+        "movie_type":"Drama, Horror, Mystery"
+    },
+    {
+        "movies_id":"m03",
+        "movies_name":"Carter ",
+        "Release date":"5 August 2022",
+        "Director":"Jung Byung-gil",
+        "Rating":"5.1/10",
+        "movie_type":"Action, Thriller"
+    },
+    {
+        "movies_id":"m04",
+        "movies_name":"Black Crab",
+        "Release date":"18 March 20220",
+        "Director":"Adam Berg",
+        "Rating":"5.7/10",
+        "movie_type":"Action, Adventure, Drama"
+    },
+    {
+        "movies_id":"m05",
+        "movies_name":"Choose or Die",
+        "Release date":"15 April 2022",
+        "Director":"Toby Meakins",
+        "Rating":"4.8/10",
+        "movie_type":"Drama, Horror, Thriller"
+    }
+]

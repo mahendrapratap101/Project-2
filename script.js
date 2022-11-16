@@ -67,7 +67,9 @@ function showPosition(data) {
             console.log(data)
             let cityName = data.city.name;
             let temp = data.list[0].temp.day;
-            y.innerText = `City : ${cityName} \n Temperature : ${temp} °C`
+
+            y.innerText = `${cityName} ${temp} °C`
+
         })
         .catch((err) => {
             console.log(err)

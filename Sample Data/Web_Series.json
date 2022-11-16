@@ -1,0 +1,46 @@
+[{
+        "webseries_id": "ws01",
+        "webseries_name": "All of Us Are Dead",
+        "First_Episode_date": "28 January 2022",
+        "Language": "Korean",
+        "Program_Creator": "Lee Jae-kyoo",
+        "genres": "Korean drama, Zombie apocalypse, Horror fiction",
+        "rating": "7.5/10"
+    },
+    {
+        "webseries_id": "ws02",
+        "webseries_name": "The Midnight Club",
+        "First_Episode_date": "7 October 2022",
+        "Language": "English",
+        "Program_Creator": "Mike Flanagan",
+        "genres": "Horror fiction, Thriller",
+        "rating": "6.6/10"
+    },
+    {
+        "webseries_id": "ws03",
+        "webseries_name": "The Girl in the Mirror",
+        "First_Episode_date": "19 August 2022",
+        "Language": "Spanish",
+        "Program_Creator": "Sergio G. Sánchez",
+        "genres": "Thriller, Horror fiction, Supernatural",
+        "rating": "6.2/10"
+    },
+    {
+        "webseries_id": "ws04",
+        "webseries_name": "Business Proposal",
+        "First_Episode_date": "28 February 2022",
+        "Language": "Korean",
+        "Program_Creator": "Kakao Entertainment",
+        "genres": "Romantic comedy",
+        "rating": "8.7/10"
+    },
+    {
+        "webseries_id": "ws05",
+        "webseries_name": "Squid Game",
+        "First_Episode_date": "17 September 2022",
+        "Language": "Korean",
+        "Program_Creator": "Hwang Dong-hyuk",
+        "genres": "Survival Thriller Horror Drama Action",
+        "rating": "8.0/10"
+    }
+]
