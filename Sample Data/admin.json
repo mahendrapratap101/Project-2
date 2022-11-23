@@ -1,18 +1,16 @@
-[
+[{
+    "_id": "a01",
+    "admin_name": "Mahendra Pratap",
+    "admin_login": "mahendrapratap101",
+    "admin_password": "mahendra101",
+    "admin_email": "mahendrapratap101@gmail.com"
+},
 
-    {
-        "admin_id": "a01",
-        "admin_name": "Mahendra Pratap",
-        "admin_login": "mahendrapratap101",
-        "admin_password": "mahendra101",
-        "admin_email": "mahendrapratap101@gmail.com"
-    },
-
-    {
-        "admin_id": "a02",
-        "admin_name": "Mahi Singh",
-        "admin_login": "Mahi710",
-        "admin_password": "mahisingh101",
-        "admin_email": "mahisingh710@gmail.com"
-    }
+{
+    "_id": "a02",
+    "admin_name": "Mahi Singh",
+    "admin_login": "Mahi710",
+    "admin_password": "mahisingh101",
+    "admin_email": "mahisingh710@gmail.com"
+}
 ]

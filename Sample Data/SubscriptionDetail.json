@@ -1,24 +1,24 @@
 [
     {
-        "subscription_id":"nets01",
+        "_id":"nets01",
         "subscription_type":"Basic with ads",
         "subscription_price":"$6.99/month.",
         "subscription_detail":"Watch & Download on 1 mobile device at a time. Unlimited & ad-free movies, TV shows, and mobile games"
     },
     {
-        "subscription_id":"nets02",
+        "_id":"nets02",
         "subscription_type":"Basic",
         "subscription_price":"$9.99/month.",
         "subscription_detail":"Watch & Download on 1 supported device at a time. Unlimited & ad-free movies, TV shows, and mobile games in HD"
     },
     {
-        "subscription_id":"nets03",
+        "_id":"nets03",
         "subscription_type":"Standard",
         "subscription_price":"$15.49/month.",
         "subscription_detail":"Watch & Download on 2 supported device at a time. Unlimited & ad-free movies, TV shows, and mobile games in Full HD"
     },
     {
-        "subscription_id":"nets04",
+        "_id":"nets04",
         "subscription_type":"Premium",
         "subscription_price":"$19.99/month.",
         "subscription_detail":"Watch & Download on 4 supported device at a time. Unlimited & ad-free movies, TV shows, and mobile games in Ultra HD"
